@@ -1,0 +1,1 @@
+This folder contains the antennas in h5 format and the txt file needed to simulated them.
