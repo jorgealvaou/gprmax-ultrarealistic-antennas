@@ -2,7 +2,7 @@
 Ultra-realistic antennas for gprMax.
 
 
-# Using the ultra-realistic antennas? Cite us
+## Using the ultra-realistic antennas? Cite us
 If you use these ultra-realistic antennas and publish your work we would be grateful if you could cite our work using the following:
 
 Alva Alarcon, J.L.; Zhang, Y.R.; Suarez, H.; Amaireh, A.; Reynolds, K. Penetrating Radar on Unmanned Aerial Vehicle for the Inspection of Civilian Infrastructure: System Design, Modeling, and Analysis. Aerospace 2025, 12, 686. https://doi.org/10.3390/aerospace12080686
