@@ -1,0 +1,1 @@
+This folder contains basic examples to run using gprMax software.
