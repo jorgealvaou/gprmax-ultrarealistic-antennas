@@ -1,0 +1,34 @@
+#title: Geometry for the VivaldiTSA900 ultra realistic antenna
+
+#python:
+from gprMax.input_cmd_funcs import *
+
+simulation_time = 1e-9
+time_window(simulation_time)
+
+mm = 1/1000 # too avoid converting to mm each time
+dd = 1*mm #resolution for all the model
+
+# VivaldiTSA900.h5 fixed dimentions
+antenna_x_length = 230*mm
+antenna_y_length = 164*mm
+antenna_z_length = 2*mm
+
+# 3D space dimentions. Remember to include at least +10*dd (PML cells) for each side for the PML cells
+max_x = antenna_x_length + 25*mm # adding extra space for the PML cells
+max_y = antenna_y_length + 25*mm
+max_z = antenna_z_length + 25*mm
+
+# position of the antenna
+antenna_x_pos = 12*mm
+antenna_y_pos = 12*mm
+antenna_z_pos = 12*mm
+
+# calling the ultra realistic antenna from the h5 file
+command('geometry_objects_read',antenna_x_pos,antenna_y_pos,antenna_z_pos,'../antenna_factory/VivaldiTSA900.h5','../antenna_factory/VivaldiTSA900_materials.txt')
+
+domain = domain(max_x, max_y, max_z)
+dx_dy_dz(dd,dd,dd)
+geometry_view(0, 0, 0, max_x, max_y, max_z, dd, dd, dd, 'tsa900_geometry', 'n')
+
+#end_python:
