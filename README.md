@@ -4,7 +4,7 @@ Ultra-realistic antennas for gprMax.
 We are updating this repository by adding ultra-realistic antennas to be used in gprMax FDTD (Finite-Difference Time-Domain) simmulations.
 
 
-
+Next a small demo of the EMW when using a Vivaldi TSA900 antenna with 7.29GHz ricker pulse.
 https://github.com/user-attachments/assets/dba3d1b4-fdb2-4f60-abdd-914d52ed537d
 
 
