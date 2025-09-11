@@ -5,9 +5,7 @@ We are updating this repository by adding ultra-realistic antennas to be used in
 
 
 Next a small demo of the EMW when using a Vivaldi TSA900 antenna with 7.29GHz ricker pulse.
-https://github.com/user-attachments/assets/dba3d1b4-fdb2-4f60-abdd-914d52ed537d
-
-https://github.com/jorgealvaou/gprmax-ultrarealistic-antennas/docs/TSA900_emw_movie_1.mp4
+https://github.com/user-attachments/assets/74912503-4add-4933-b1a0-494257910989
 
 
 
