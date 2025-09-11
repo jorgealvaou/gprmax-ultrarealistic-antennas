@@ -5,7 +5,8 @@ We are updating this repository by adding ultra-realistic antennas to be used in
 
 The next antennas are covered:
 Vivaldi TSA900
-![TSA900_geometry_1](https://github.com/user-attachments/assets/8b29b2df-3a5d-4621-bf57-93737b3dfb69)
+![TSA900_geometry_1](https://github.com/user-attachments/assets/04b13d92-79f5-406f-b60b-30334d14a88c)
+
 
 Next a small demo of the EMW when using a Vivaldi TSA900 antenna with 7.29GHz ricker pulse.
 https://github.com/user-attachments/assets/74912503-4add-4933-b1a0-494257910989
